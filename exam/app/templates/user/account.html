@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Reports</title>
+</head>
+
+<body>
+    <h2>Table</h2>
+    {% for balance in balance %}
+    <li>{{balance.stocks_id}}  -  {{balance.balance}}  </li>
+    {% endfor %}
+</body>
+</html>
